@@ -8,3 +8,4 @@ nonblock
     .do (feeds)->
         for feed in Object.keys feeds
             console.log feed
+console.log 'doing other stuff now, no need to wait'
