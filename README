@@ -1,0 +1,16 @@
+coffeescript + chainsaw == awesomeness
+
+#examples/find.coffee
+discover = require '../discover'
+discover()
+    .find('www.readwriteweb.com')
+    .do (feeds)->
+        console.log feeds
+    .find('techcrunch.com')
+    .do (feeds)->
+        console.log feeds
+#->
+
+{ 'http://www.readwriteweb.com/rss.xml': 'http://www.readwriteweb.com/rss.xml' }
+{ 'http://feedproxy.google.com/TechCrunch': 'http://feedproxy.google.com/TechCrunch' }
+
