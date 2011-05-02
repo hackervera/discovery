@@ -1,8 +1,7 @@
 discover = require '../discover'
 discover()
     .find('www.readwriteweb.com')
-    .do (feeds)->
-        console.log feeds
     .find('techcrunch.com')
     .do (feeds)->
-        console.log feeds
+        for feed in Object.keys feeds
+            console.log feed

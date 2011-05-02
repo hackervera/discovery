@@ -8,7 +8,6 @@ feeds = {}
 discover = ->
     return chainsaw (saw)->
         this.find = (host)->
-            feeds = {}
             body = ""
             options = {}
             options.host = host
