@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/tjgillies/discovery.png)](http://travis-ci.org/tjgillies/discovery)
 coffeescript + chainsaw == awesomeness
 
 # examples/find.coffee
